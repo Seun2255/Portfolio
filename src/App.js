@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Header />
       <Section />
+      <Footer />
     </div>
   );
 }

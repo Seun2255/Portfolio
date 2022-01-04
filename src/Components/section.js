@@ -10,9 +10,9 @@ import js from "./img/Js.jpg";
 import python from "./img/python.jpg";
 import django from "./img/django.jpg";
 import mysql from "./img/mysql.jpg";
-import paper from "./img/paper.jpg";
 import reactnative from "./img/reactnative.jpg";
 import react1 from "./img/React.jpg";
+import todomain from "./img/primalToDo-main.jpeg";
 
 function Section() {
   return (
@@ -75,6 +75,22 @@ function Section() {
       </div>
       <div className={style.portfolio}>
         <p className={style.about__portfolio}>portfolio</p>
+        <div className={style.project}>
+          <div className={style.left}>
+            <p className={style.project__name}>Primal To-Do</p>
+            <p className={style.project__info}>
+              Making a to do list when learning javascript seems like a pretty
+              standard first project. I decided to do the same but make it
+              slightly more complex by adding animations(react-spring) and state
+              management to my first to do web app
+            </p>
+          </div>
+          <div className={style.right}>
+            <a href="https://primal-to-do.netlify.app/" target="_blank">
+              <img alt="Primal To-Do" src={todomain} id={style.project__img} />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
