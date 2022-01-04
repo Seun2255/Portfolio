@@ -1,0 +1,111 @@
+.body {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.head {
+  font-size: 24px;
+  color: grey;
+}
+
+.center {
+  width: 80%;
+  background-color: white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+.section {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+#HNG {
+  color: rgb(48, 109, 75);
+  font-weight: 400;
+}
+
+.about {
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 5;
+  border-style: solid;
+  color: grey;
+  font-size: 34px;
+  position: relative;
+  background-color: white;
+  margin: 0%;
+  top: -24px;
+  padding: 5px;
+}
+
+.about1 {
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 5;
+  border-style: solid;
+  color: grey;
+  font-size: 24px;
+  position: relative;
+  background-color: white;
+  margin: 0%;
+  top: -24px;
+  padding: 5px;
+}
+
+.about__info {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  background-color: grey;
+  width: 60%;
+}
+
+.picroll {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+#img {
+  width: 80px;
+  height: 80px;
+}
+
+.portfolio {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about__portfolio {
+  border-color: white;
+  border-radius: 10px;
+  border-width: 5;
+  border-style: solid;
+  color: rgb(48, 109, 75);
+  font-size: 48px;
+  font-weight: 900;
+  position: relative;
+  background-color: grey;
+  margin: 0%;
+  top: -24px;
+  padding: 5px;
+}
