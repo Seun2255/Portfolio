@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 .body {
   width: 100%;
   background-color: white;
@@ -5,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  font-family: "Open Sans", sans-serif;
 }
 
 .head {
@@ -40,7 +42,7 @@
 }
 
 .about {
-  border-color: grey;
+  border-color: grey !important;
   border-radius: 10px;
   border-width: 5;
   border-style: solid;
@@ -99,7 +101,7 @@
 }
 
 .about__portfolio {
-  border-color: white;
+  border-color: white !important;
   border-radius: 10px;
   border-width: 5;
   border-style: solid;

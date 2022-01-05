@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 .body {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 100%;
   background-image: linear-gradient(to top right, white, grey);
+  font-family: "Open Sans", sans-serif;
 }
 
 .left {
