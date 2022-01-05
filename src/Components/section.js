@@ -20,8 +20,10 @@ function Section() {
       <p className={style.head}>Hi, I'm Seun</p>
       <div className={style.center}>
         <div className={style.section}>
-          <p className={style.about}>About me</p>
-          <p className={style.about__info}>
+          <p className={style.about} id="about">
+            About me
+          </p>
+          <p className={style.about__info} id={style.frontend}>
             I'm a frontend developer that uses React to make cool webapps and
             websites. I took part in the
             <span id="HNG"> eight HNG internship </span>
@@ -74,20 +76,27 @@ function Section() {
         </div>
       </div>
       <div className={style.portfolio}>
-        <p className={style.about__portfolio}>portfolio</p>
+        <p className={style.about__portfolio} id="portfolio">
+          portfolio
+        </p>
         <div className={style.project}>
           <div className={style.left}>
             <p className={style.project__name}>Primal To-Do</p>
             <p className={style.project__info}>
-              Making a to do list when learning javascript seems like a pretty
+              Making a To-Do list when learning javascript seems like a pretty
               standard first project. I decided to do the same but make it
               slightly more complex by adding animations(react-spring) and state
-              management to my first to do web app
+              management to my first To-Do list web app
             </p>
           </div>
           <div className={style.right}>
-            <a href="https://primal-to-do.netlify.app/" target="_blank">
+            <a
+              href="https://primal-to-do.netlify.app/"
+              target="_blank"
+              id={style.link}
+            >
               <img alt="Primal To-Do" src={todomain} id={style.project__img} />
+              <div className={style.project__hover}>Visit Site</div>
             </a>
           </div>
         </div>

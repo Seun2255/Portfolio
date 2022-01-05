@@ -1,5 +1,75 @@
 .body {
-  background-color: grey;
   height: 100%;
   width: 100%;
+  background-image: linear-gradient(to bottom, white, grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  color: grey;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.box {
+  border: 5px solid grey;
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box__head {
+  color: grey;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.link__container {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  color: grey;
+  font-size: 28px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 80%;
+  }
+
+  .box__head {
+    font-size: 26px;
+  }
+
+  .link__container {
+    width: 80%;
+  }
+
+  .links {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .links {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .link__container {
+    width: 40%;
+  }
 }
