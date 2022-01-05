@@ -19,7 +19,7 @@ function Navbar() {
       >
         <Grid item>
           <Typography
-            variant={mediaQuery ? "h4" : "h2"}
+            variant={menuIcon ? "h4" : "h2"}
             style={{
               color: "rgb(48, 109, 75)",
               fontWeight: 600,
