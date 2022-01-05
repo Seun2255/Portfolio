@@ -26,6 +26,7 @@ function Footer() {
           href="https://www.linkedin.com/in/seun-oyewande-6a8a0b224/"
           target="_blank"
           className={style.links}
+          rel="noreferrer"
         >
           LinkedIn
         </a>
@@ -33,6 +34,7 @@ function Footer() {
           href="https://github.com/Seun2255"
           target="_blank"
           className={style.links}
+          rel="noreferrer"
         >
           Github
         </a>
@@ -40,6 +42,7 @@ function Footer() {
           href="mailto:seunemmanuel2255@gmail.com"
           target="_blank"
           className={style.links}
+          rel="noreferrer"
         >
           Email
         </a>

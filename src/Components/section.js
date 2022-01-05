@@ -93,6 +93,7 @@ function Section() {
             <a
               href="https://primal-to-do.netlify.app/"
               target="_blank"
+              rel="noreferrer"
               id={style.link}
             >
               <img alt="Primal To-Do" src={todomain} id={style.project__img} />
